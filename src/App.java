@@ -65,7 +65,7 @@ public class App {
                try{
                 move=input.nextInt(); 
                }
-               catch(Exception inputMismatchException){
+               catch(Exception inputMismatchException){ 
                    System.out.println("Invalid input");
                    input.next(); // Clear the invalid input
                    i--;
