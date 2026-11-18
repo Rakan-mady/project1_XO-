@@ -63,7 +63,7 @@ public class App {
                System.out.println("your turn player "+currentPlayer+" enter your move");
                int move;
                try{
-                move=input.nextInt();
+                move=input.nextInt(); 
                }
                catch(Exception inputMismatchException){
                    System.out.println("Invalid input");
